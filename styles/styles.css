@@ -3,15 +3,30 @@
 }
 
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Componentes Globales */
 .colorBtn{
     background-color: var(--colorBtn);
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
+/* Codigo HomePage Alias JJ */´
+main{
+    flex-grow: 1;
 }
-
-
+#caruselOfertaImg{
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+}
+#boton{
+    border-radius: 50%;
+}
 
 .translateArrowLg{
     transform: translate(0px, 25px);
