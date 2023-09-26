@@ -1,0 +1,46 @@
+:root{
+    --colorBtn: #f14902;
+}
+
+
+.colorBtn{
+    background-color: var(--colorBtn);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.translateArrowLg{
+    transform: translate(0px, 25px);
+}
+
+.translateArrow{
+    transform: translate(0px, 29px);
+}
+
+
+.widthNine{
+    width: 90%;
+}
+
+.heightBtn{
+    height: 50px;
+}
+
+.btnReset{
+    width: 0;
+    height: 0;
+    border: none;
+    background-color: white;
+}
+
+.marginBtn{
+    margin-bottom: -40px;
+}
+
+.marginTopping{
+    margin-top: -29px;
+}
