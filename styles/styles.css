@@ -191,6 +191,10 @@ b{
     color: white;
 }
 
+.textColorOrange{
+    color: var(--colorBtn);
+}
+
 @media screen and (min-width:350px){
     .marginTopSell{
         margin-top: 32px;
