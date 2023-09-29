@@ -186,6 +186,17 @@ b{
     color: black
 }
 
+.colorPregunta{
+    background-color: var(--colorBtn);
+    color: white;
+    border: none;
+}
+
+.colorPregunta:hover{
+    background-color: #c63e04;
+    color: white;
+}
+
 .colorBtn:hover{
     background-color: black;
     color: white;
