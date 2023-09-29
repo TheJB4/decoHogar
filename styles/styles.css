@@ -183,7 +183,7 @@ a{
 }
 
 b{
-    color: var(--colorBtn);
+    color: black
 }
 
 .colorBtn:hover{
