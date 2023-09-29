@@ -16,16 +16,14 @@ body{
 }
 
 /* Codigo HomePage Alias JJ */´
-main{
-    flex-grow: 1;
-}
 #caruselOfertaImg{
     width: 100%;
     object-fit: cover;
     height: 700px;
 }
-#boton{
-    border-radius: 50%;
+
+#desaparecer{
+    height: auto;
 }
 
 /* Codigo HomePage Alias JJ '''termina aqui''' */
@@ -60,4 +58,160 @@ main{
 
 .marginTopping{
     margin-top: -29px;
+}
+
+#caruselOfertaImg{
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+}
+#boton{
+    border-radius: 50%;
+}
+
+/* Codigo de Ignacio sanches pagina contacto */
+.botonContactos{
+    display: block;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding:0.5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 480px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color:rgb(245, 245, 245);
+    color: rgb(17, 17, 17);
+    border-radius: 50px;
+    padding:10PX 10px 10px 30px;
+    text-decoration: none;
+    text-align: center;
+    border: 0 solid rgb(245, 245, 245);
+}
+
+.contenedorBotonBusqueda{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon{
+    font-size: 17px;
+    position: absolute;
+    bottom: 15px;
+    left:12px;
+}
+
+
+/* Estilos footer max */
+footer{
+    background-color:#F6E7D8 ;
+}
+i {
+    font-size: 25px;
+    
+}
+.insta{
+    color:rgb(225, 48, 108);
+}
+.wp{
+    color: green;
+}
+.face{
+    color: blue;
+}
+li a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+a p{
+    font-size: 15px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.wCard{
+    width: 20rem;
+}
+
+
+/* Estilo navbar mauro armas */
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.listaFooter{
+    list-style: none;
+    padding: 0;
+}
+
+.carouselProducts{
+    height: 450px;
+    object-fit: cover;
+
+}
+a{
+    color: white;
+}
+
+.marginTopSell{
+    margin-top: 32px;
+}
+
+@media screen and (min-width:350px){
+    .marginTopSell{
+        margin-top: 32px;
+    }
+
+    .marginBottomSell{
+        margin-bottom: 24px;
+    }
+}
+
+
+
+@media screen and (min-width:576px){
+    .carousel-item{
+        /* display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3); */
+    }
+    .carousel-inner{
+        /* display: flex; */
+    }    
+}
+
+
+@media screen and (max-width: 998px) {
+    main{
+        flex-grow: 1;
+    }
+
+    #caruselOfertaImg{
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+    }
+
+    #desaparecer{
+        display: none;
+    }
 }

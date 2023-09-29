@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../../../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div class="container-fluid">
+                <div>
+                    <a class="navbar-brand" href="../../index.html"><img class="logo" src="../../assets/logo.png" alt=""></a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorias
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../muebles.html">Muebles</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="../decoracion.html">Decoraciones</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+
+                    <form class="d-flex w-100 boton" role="search">
+                        <input class="form-control me-2 txtBuscar" type="search" placeholder="¿Qué es lo que buscas?"
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success btnBusq" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+
+                    <a class="nav-link active p-2" aria-current="page" href="#">Nosotros</a>
+                    <a class="nav-link active p-2" aria-current="page" href="#">Contactenos</a>
+                    <div class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+
+        <!-- Container carousel lg -->
+        <div class="containerCarousel container row">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div id="carouselProductImage" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProductImage" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProductImage" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProductImage" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../../assets/ProductsImages/BILLY/billy-libreria-chapa-roble-tinte-blanco__0564818_pe664196_s5.avif"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../assets/ProductsImages/BILLY/billy-libreria-chapa-roble-tinte-blanco__0849684_pe664326_s5.avif"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../../assets/ProductsImages/BILLY/billy-libreria-chapa-roble-tinte-blanco__1051910_pe845799_s5.avif"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductImage"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProductImage"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Descripcion principal del producto -->
+            <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-lg-center mt-lg-4">
+                <div class="">
+                    <p class="fs-4 mb-0 fs-3 fw-bold">BILLY</p>
+                    <p class="mb-2 fw-light text-dark-emphasis">
+                        Librería, chapa roble tinte blanco, 80x28x202 cm
+                    </p>
+                    <p class="mb-2 fw-light text-dark-emphasis fs-7">
+                        Según nuestros cálculos, cada 5 segundos se vende una librería BILLY en algún lugar del mundo. Un dato impresionante, y más teniendo en cuenta que lanzamos BILLY en 1979. Es la opción preferida por los lectores y nunca se pasa de moda.
+                    </p>
+                    <h2 class="fw-bolder">$89</h2>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-star fa-2xs"></i>
+                    <i class="fa-solid fa-star fa-2xs"></i>
+                    <i class="fa-solid fa-star fa-2xs"></i>
+                    <i class="fa-solid fa-star fa-2xs"></i>
+                    <i>(111)</i>
+                </div>
+
+                <p class="mt-2 fw-bolder">Como conseguirlo</p>
+
+                <!-- Container formas de envios y especificaciones tecnicas -->
+                <div
+                    class="border border-dark-subtle p-2 rounded-1 d-flex justify-content-center align-items-center flex-column mx-lg-0">
+                    <div class="d-flex align-items-baseline px-2">
+                        <div class="me-4 mt-2">
+                            <i class="fa-solid fa-hammer fa-xl"></i>
+                        </div>
+                        <div>
+                            <p class="mb-1 fw-bolder">Especificaciones tecnicas</p>
+                            <p class="fw-light fs-7 text-start">Despeja todas las dudas que tengas sobre el producto</p>
+                        </div>
+                        <div class="ms-4 text-center">
+                            <button class="btnReset" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#productEspecificDesktop,#productEspecificMobile"
+                                aria-controls="productEspecific">
+                                <i class="fa-solid fa-chevron-right translateArrow translateArrowLg"></i>
+                            </button>
+                        </div>
+
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="productEspecificMobile"
+                            aria-labelledby="productEspecificLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    <h3 class="fw-bolder">Especificaciones Tecnicas</h3>
+
+                                    <div class="mt-4">
+                                        <p class="fw-lighter text-secondary">
+                                            Baldas regulables. Adapta el espacio entre las baldas según tus necesidades.
+                                        </p>
+                                        <p class="fw-lighter text-secondary">
+                                            Un sólo módulo puede ser suficiente en un espacio limitado o la base de una gran solución si cambian tus necesidades.
+                                        </p>
+                                        <p class="fw-lighter text-secondary">
+                                            La superficie es de enchapado de madera natural.
+                                        </p>
+                                    </div>
+
+                                    <div>
+                                        <p class="fw-bolder">Diseñador:</p>
+                                        <p>DecoHogar</p>
+                                    </div>
+
+                                    <div>
+                                        <p class="fw-bolder">Numero de articulo</p>
+                                        <p class="bg-dark text-light w-25 text-center">299.321.81</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr class="border border-dark border-1 opacity-25 widthNine">
+                    <div class="d-flex align-items-baseline px-2">
+                        <div class="me-4">
+                            <i class="fa-solid fa-truck fa-xl"></i>
+                        </div>
+                        <div>
+                            <p class="mb-1 fw-bolder">Envios a domicilio</p>
+                            <p class="fw-light fs-7 text-start">Consulta la disponibilidad de envio para tu codigo
+                                postal
+                            </p>
+                        </div>
+                        <div class="ms-4 text-center">
+                            <button class="btnReset" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                <i class="fa-solid fa-chevron-right translateArrow"></i>
+                            </button>
+                        </div>
+
+                        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title">Usa tu ubicacion</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>Disfruta de información actualizada sobre la entrega de productos y la disponibilidad
+                                    de las existencias en tu zona.</p>
+                                <form action="">
+                                    <div class="mb-3">
+                                        <label for="questionSeller" class="form-label text-center fw-bold">Introduce un
+                                            código postal</label>
+                                        <input type="text" class="form-control border border-dark-subtle"
+                                            id="questionSeller" aria-describedby="textHelp">
+                                        <div id="textHelp" class="form-text">Por ejemplo, 28703</div>
+                                    </div>
+                                    <input type="submit" value="Guardar" class="w-100 btn btn-dark">
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-25 d-flex justify-content-center flex-lg-row align-items-center container row">
+                    <div class="col-lg-6">
+                        <div
+                            class="heightBtn d-flex border border-dark rounded-4 mt-4 mb-3 text-center justify-content-between align-items-center px-3 widthNine w-100">
+                            <p class="fs-1 m-0">-</p>
+                            <p class="fs-3 fw-bolder m-0">1</p>
+                            <p class="fs-1 m-0">+</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6">
+                        <button type="button"
+                            class="btn btn-primary py-2 d-flex h-25  rounded-4 text-center justify-content-center align-items-center py-4 py-lg-3 widthNine w-100">
+                            Añadir al carrito
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-2 mt-sm-5 col-md-12 col-lg-12">
+                <div class="row">
+                    <div class=" d-lg-flex align-items-center">
+                        <form class="col-lg-6">
+                            <div class="mb-3">
+                                <label for="questionSeller" class="form-label text-center fw-bold">Preguntale al
+                                    vendedor</label>
+                                <input type="text" class="form-control border border-dark-subtle" id="questionSeller"
+                                    aria-describedby="textHelp">
+                                <div id="textHelp" class="form-text">Tiempo de respuesta aproximado: 60 min</div>
+                            </div>
+                        </form>
+                        <div class="col-lg-4 ms-3 mb-2">
+                            <input type="submit" value="Preguntar" class="btn btn-primary w-100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <p class="fw-bolder">Ultimas Realizadas</p>
+                    <div>
+                        <div>
+                            <p class="fw-semibold text-dark">De que material es?</p>
+                        </div>
+                        <div class="d-flex align-items-baseline">
+                            <img class="ms-3" src="../../assets/ident.png" alt="" width="20px" height="20px">
+                            <p class="ms-2 mt-1 text-secondary">Tiene las especificaciones haciendo click en la parte de
+                                "especificaciones del producto".</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p class="fw-semibold text-dark">¿Es el unico color?</p>
+                        </div>
+                        <div class="d-flex align-items-baseline">
+                            <img class="ms-3" src="../../assets/ident.png" alt="" width="20px" height="20px">
+                            <p class="ms-2 mt-1 text-secondary">Por el momento si estimado</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p class="fw-semibold text-dark">¿Que medida es el mueble?</p>
+                        </div>
+                        <div class="d-flex align-items-baseline">
+                            <img class="ms-3" src="../../assets/ident.png" alt="" width="20px" height="20px">
+                            <p class="ms-2 mt-1 text-secondary">Tiene las especificaciones haciendo click en la parte de
+                                "especificaciones del producto".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- container images md -->
+    </section>
+
+    <footer class=" text-dark ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-4 col-lg-4 ">
+                    <a href=""><img src="../../assets/logo.png" alt="Logo" class=" img-fluid h-75 logos"></a>
+                </div>
+                <div class="col-md-4 col-lg-4 py-5">
+                    <h5>Servicio y Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: @RollingCode</li>
+                        <li> Direccion: General Paz 561</li>
+                        <li>Numero de Servicios: 381345599</li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-4 py-5">
+                    <h5>Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href=""><i class="face bi-facebook  m-2"></i>Facebook</a></li>
+                        <li><a href=""><i class="insta bi-instagram m-2 "></i>instagran</a></li>
+                        <li><a href=""><i class="wp bi-whatsapp  m-2"></i>whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <a href="">
+                                <p>&copy;Derechos reservados a RollingCode</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dc095ddc9e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
