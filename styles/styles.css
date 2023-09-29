@@ -146,6 +146,7 @@ h5{
 }
 
 
+
 .wCard{
     width: 20rem;
 }
@@ -177,6 +178,7 @@ a{
 }
 
 .marginBottomSell{
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
