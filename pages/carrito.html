@@ -16,6 +16,63 @@
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="#"><img class="logo" src="../assets/logo.png" alt=""></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./pages/muebles.html">Muebles</a></li>
+                <li>
+                  <a class="dropdown-item" href="./pages/decoracion.html">Decoraciones</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+
+          <form class="d-flex w-100 boton" role="search">
+            <input class="form-control me-2 txtBuscar" type="search" placeholder="¿Qué es lo que buscas?"
+              aria-label="Search" />
+            <button class="btn btn-outline-success btnBusq" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+
+          <a class="nav-link active p-2" aria-current="page" href="#">Nosotros</a>
+          <a class="nav-link active p-2" aria-current="page" href="#">Contactenos</a>
+          <a class="nav-link active p-2" aria-current="page" href="#">Login</a>
+          <div class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+            <div class="nav-item">
+              <a class="nav-link" href="./pages/register.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link" href="./pages/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
   <div class="container mt-5">
     <h2 class="bi-bag ">Productos Seleccionados</h2>
     <div class="row">
@@ -149,7 +206,42 @@
     </div>
   </div>
 
+  <footer class="text-dark bg-light">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-md-4 col-lg-4 ">
+          <a href=""><img src="../assets/logo.png" alt="Logo" class=" img-fluid h-75 logos"></a>
+        </div>
+        <div class="col-md-4 col-lg-4 py-5">
+          <h5>Servicio y Contacto</h5>
+          <ul class="list-unstyled">
+            <li>Email: @RollingCode</li>
+            <li> Direccion: General Paz 561</li>
+            <li>Numero de Servicios: 381345599</li>
 
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-4 py-5">
+          <h5>Redes Sociales</h5>
+          <ul class="list-unstyled">
+            <li><a href=""><i class="face bi-facebook  m-2"></i>Facebook</a></li>
+            <li><a href=""><i class="insta bi-instagram m-2 "></i>instagran</a></li>
+            <li><a href=""><i class="wp bi-whatsapp  m-2"></i>whatsapp</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <a href="">
+                <p>&copy;Derechos reservados a RollingCode</p>
+              </a>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script src="../js/bootstrap.min.js"></script>
 </body>
 
