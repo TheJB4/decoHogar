@@ -173,7 +173,11 @@ a{
 }
 
 .marginTopSell{
-    margin-top: 32px;
+    margin-top: 35px;
+}
+
+.marginBottomSell{
+    margin-bottom: 50px;
 }
 
 @media screen and (min-width:350px){
