@@ -181,6 +181,14 @@ a{
     margin-bottom: 50px;
 }
 
+.colorRegister{
+    color: #2600ff;
+}
+
+.colorHeart{
+    color: #d40a0a;
+}
+
 b{
     color: black
 }
