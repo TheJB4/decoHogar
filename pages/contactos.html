@@ -4,124 +4,466 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/848109716a.js" crossorigin="anonymous"></script>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../styles/bootstrap.min.css">
   <link rel="stylesheet" href="../styles/styles.css" />
-  <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+
   <title>Contáctanos</title>
 </head>
 
 <body>
-  <main class="container">
-    <!--Cerrusel de elementos de busqueda-->
-      <!--fin del carrusel-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/logo.png" alt=""></a>
+        </div>
 
-      <div class="">
-        <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active w-100">
-              <div class="row flex-md-nowrap">
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard d-block">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./muebles.html">Muebles</a></li>
+                <li>
+                  <a class="dropdown-item" href="./decoracion.html">Decoraciones</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+
+          <form class="d-flex w-100 boton" role="search">
+            <input class="form-control me-2 txtBuscar" type="search" placeholder="¿Qué es lo que buscas?"
+              aria-label="Search" />
+            <button class="btn btn-outline-success btnBusq" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+
+          <a class="nav-link active p-2" aria-current="page" href="#">Nosotros</a>
+          <a class="nav-link active p-2" aria-current="page" href="./contactos.html">Contactenos</a>
+          <button class="btn border-0" data-bs-target="#modalLogin" data-bs-toggle="modal">Login</button>
+          <div class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+            <div class="d-flex">
+              <div class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-user ms-1 colorRegister"></i></a>
+              </div>
+              <div class="nav-item ms-2">
+                <a class="nav-link" href="#"><i class="fa-solid fa-heart colorHeart"></i></a>
+              </div>
+              <div class="nav-item ms-2">
+                <a class="nav-link" href="./carrito.html"><i class="fa-solid fa-cart-shopping colorCart"></i></a>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="row flex-nowrap justify-content-between">
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 col-lg-3">
-                  <div class="card wCard">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container-fluid text-center">
+    <h1 class="fuenteOpenSans500">
+      Contáctanos
+    </h1>
+    <div class="d-lg-flex justify-content-lg-center">
+      <button class="colorBtn border-0 text-light my-2 mb-3 p-3 rounded">Haz un seguimiento de tu pedido!</button>
+    </div>
+    <h2 class="fuenteOpenSans300 titulo">
+      ¿Cómo podemos ayudarte?
+    </h2>
+    <p class="fuenteOpenSans300" style="color: #727272; font-weight: 25">
+      Si deseas información sobre nuestros productos, utiliza el buscador
+      ubicado en la parte superior de <br />
+      la web. <br /><br />Si lo que estás buscando es otro tipo de
+      información, utiliza el buscador que está a continuación.
+    </p>
+    <div class="contenedorBotonBusqueda">
+      <div class="input-group mb-3 w-50">
+        <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+        <input type="text" class="form-control" placeholder="informacion a buscar" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+    </div>
+    <h2 class="fuenteOpenSans300">Preguntas frecuentes</h2>
+    <p class="fuenteOpenSans300" style="color: #727272; font-weight: 25">
+      <br />Encuentra las respuestas a tus dudas desde nuestro buscador o
+      consulta las preguntas más frecuentes <br />
+      a continuación. Para obtener mejores resultados, limite su pregunta a
+      menos de cinco palabras.
+    </p>
+    <!--Cerrusel de elementos de busqueda-->
+    <div class="d-lg-none d-md-flex justify-content-md-center mb-5">
+      <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active w-100">
+            <div class="card wCardFold py-3">
+              <div class="card-body d-flex flex-column justify-content-between align-content-between">
+                <h5 class="card-title fw-bold">¿De que medida es el producto?</h5>
+                <p class="card-text">En la seccion de especificaciones tecnicas.</p>
+                <div class="w-100">
+                  <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="d-flex w-100">
-            <div class="">
-              <button class="btn btn-primary" type="button" data-bs-target="#carouselCards" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              </button>
+          <div class="carousel-item">
+            <div class="card wCardFold">
+              <div
+                class="card-body d-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-between">
+                <h5 class="card-title fw-bold">Como estoy al tanto de las ofertas?</h5>
+                <p class="card-text">Todas las semanas le llegara un email con las ofertas!</p>
+                <div class="w-100">
+                  <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                </div>
+              </div>
             </div>
-            <div class="d-flex w-100 justify-content-end">
-              <button class="btn btn-primary" type="button" data-bs-target="#carouselCards" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              </button>
+          </div>
+          <div class="carousel-item">
+            <div class="card wCardFold">
+              <div
+                class="card-body d-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-between">
+                <h5 class="card-title fw-bold">¿Puedo trabajar con ustedes?</h5>
+                <p class="card-text">Actualmente no buscamos mas personal. puedes estar al tanto.</p>
+                <div class="w-100">
+                  <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+              <div class="card wCardFold">
+                <div class="card-body card-body d-flex flex-column justify-content-between align-content-between">
+                  <h5 class="card-title fw-bold">Quiero devolver el producto!</h5>
+                  <p class="card-text">Contactate con soporte porfavor!</p>
+                  <div class="w-100">
+                    <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card wCardFold">
+              <div class="card-body card-body d-flex flex-column justify-content-between align-content-between">
+                <h5 class="card-title fw-bold">Compre un mueble blanco y me llego negro</h5>
+                <p class="card-text">Contactate con soporte porfavor!</p>
+                <div class="w-100">
+                  <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <div class="d-flex w-100">
+          <div class="d-flex w-100 justify-content-end position-absolute top-50">
+            <button class="colorBtn border-0" type="button" data-bs-target="#carouselCards" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-none d-lg-flex flex-lg-column mb-5">
+      <div id="carouselCards" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active w-100 " data-bs-interval="3000">
+            <div class="row flex-md-nowrap">
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard">
+                  <div class="card-body d-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">¿De que medida es el producto?</h5>
+                    <p class="card-text">En la seccion de especificaciones tecnicas.</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard">
+                  <div class="card-body d-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">El envio es gratis?</h5>
+                    <p class="card-text">Puede consultarlo en la parde de codigo postal!</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard">
+                  <div class="card-body d-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">Puedo elegir el color?</h5>
+                    <p class="card-text">Si claro!</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard d-block">
+                  <div class="card-body d-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">El producto que compro tiene cambio?</h5>
+                    <p class="card-text">Claro. una vez realizada la compra podras contactar con el vendedor.</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="row flex-nowrap justify-content-between">
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">Como estoy al tanto de las ofertas?</h5>
+                    <p class="card-text">Todas las semanas le llegara un email con las ofertas!</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-betweend-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">¿Puedo trabajar con ustedes?</h5>
+                    <p class="card-text">Actualmente no buscamos mas personal. puedes estar al tanto.</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard">
+                  <div class="card-body card-body d-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">Quiero devolver el producto!</h5>
+                    <p class="card-text">Contactate con soporte porfavor!</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <div class="card wCard">
+                  <div class="card-body card-body d-flex flex-column justify-content-between align-content-between">
+                    <h5 class="card-title fw-bold">Compre un mueble blanco y me llego negro</h5>
+                    <p class="card-text">Contactate con soporte porfavor!</p>
+                    <div class="w-100">
+                      <a href="#" class="btn btn-primary w-50 border-0 colorBtn">Ver pregunta</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="d-flex w-100">
+          <div class="d-flex w-100 justify-content-end position-absolute top-50">
+            <button class="colorBtn border-0" type="button" data-bs-target="#carouselCards" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!--fin del carrusel-->
+
+    <!--grilla de bloques-->
+
+
+    <h2 class="fuenteOpenSans300">Puedes hacerlo tú mismo</h2>
+    <p class="fuenteOpenSans300" style="color: #727272; font-weight: 25;">¿Quieres comprobar el estado de tu pedido?
+      ¿Hacer una devolución? Aquí tienes disponibles nuestras soluciones de autoservicio:</p>
+    <article class="contenedorGrilla d-flex flex-column mb-5">
+      <div class="container text-center">
+        <div class="row row-cols-4" style="background-color:rgb(245, 245, 245)">
+          <div class="col bordeDerechoBlanco ">
+            <i class="bi bi-truck tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Comprobar tu pedido</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">Aquí puedes hacer el seguimiento de
+              tu pedido <br><a href="" class="colorGris">Seguir pedido</a>
+          </div>
+          <div class="col bordeDerechoBlanco">
+            <i class="bi bi-truck tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Cancelar pedido</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">Sentimos que quieras cancelar tu
+              pedido​<br><a href="" class="colorGris">Cancelar pedido</a>
+          </div>
+          <div class="col bordeDerechoBlanco">
+            <i class="bi bi-heart tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Reprogramar entrega</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">Aquí puedes cambiar la cita de tu
+              pedido<br><a href="" class="colorGris">Reprogramar pedido</a>
+          </div>
+          <div class="col">
+            <i class="bi bi-box-seam tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Devolver o cambiar productos​</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">Más información sobre cómo cambiar o
+              devolver tus productos<br><a href="" class="colorGris">Devoluciones</a>
+          </div>
+          <div class="col bordeDerechoBlanco">
+            <i class="bi bi-check-circle tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Comprobar stock</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">Comprueba si los productos están
+              disponibles online o en tienda​<br><a href="" class="colorGris">Más información</a>
+          </div>
+          <div class="col bordeDerechoBlanco">
+            <i class="bi bi-tools tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Piezas de recambio</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">¿Te faltan clavijas, tornillería u
+              otras partes del mueble?<br><a href="" class="colorGris">Pedir piezas ahora</a>
+          </div>
+          <div class="col bordeDerechoBlanco bordeArribaBlanco">
+            <i class="bi bi-credit-card tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Tarjetas regalo​</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">Envío al instante, imprime en casa, o
+              entrega por correo​<br><a href="" class="colorGris">Ir a tarjeta regalo</a>
+          </div>
+          <div class="col bordeArribaBlanco">
+            <i class="bi bi-credit-card tamañoIcono"></i>
+            <h2 class="fuenteOpenSans300 fuentePrimeraGrilla">Opciones de pago​</h2>
+            <p class="fuenteOpenSans300" style="color: #484848; font-size:medium;">Más información sobre las opciones de
+              pago en la tienda y online<br><a href="" class="colorGris">Más información</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!--fin degrilla de bloques-->
+
+
+    <!--Segunda degrilla de bloques-->
+    <h2 class="fuenteOpenSans300">Ponte en contacto con nosotros</h2>
+    <p class="fuenteOpenSans300" style="color: #727272; font-weight: 25;">Selecciona una de las siguientes opciones para
+      ponerte en contacto con nosotros.</p>
+
+    <article class="contenedorGrilla d-flex flex-column">
+      <div class="container text-center">
+        <div class="row row-cols-3">
+          <div class="col">
+
+            <h2 class="fuenteOpenSans300 tamañoCorregido">
+              ¿Cómo podemos ayudarte?
+            </h2>
+            <p class="fuenteOpenSans300 colorGris">
+              Dependiendo del motivo de tu contacto, IKEA tiene el mejor método de contacto para ti. Haz clic en el
+              botón de abajo para empezar.
+            </p>
+            <button type="button" class="btn btn-dark">Comenzar</button>
+          </div>
+          <div class="col">
+            <h2 class="fuenteOpenSans300 tamañoCorregido">
+              Chatea con nuestro chatbot
+            </h2>
+            <p class="fuenteOpenSans300 colorGris">
+              Hola, ¡soy BILLIE! El chatbot de IKEA. Estoy disponible las 24 horas del día para ayudarte con cualquier
+              duda que tengas.
+            </p>
+            <button type="button" class="btn btn-dark">Iniciar chat</button>
+          </div>
+          <div class="col">
+            <h2 class="fuenteOpenSans300 tamañoCorregido">
+              Llámanos por teléfono
+            </h2>
+            <p class="fuenteOpenSans300 colorGris">
+              Te atendemos en el teléfono 900 400 922 de lunes a sábados de 8:00 a 22:00. Domingos y festivos de 10:00 a
+              20:00.
+            </p>
+            <button type="button" class="btn btn-dark">Llamar</button>
+          </div>
+    </article>
+
+    <!--boton flotante-->
+    <div class="boton-flotante" data-toggle="tooltip" data-placement="left" title="Pega tu icono aquí">
+      <i class="bi bi-chat-left"></i> <!-- Icono 'chat-left' de Bootstrap Icons -->
+    </div>
+    <!--boton flotante-->
+
+    <!--Formulario y mapa-->
+    <div class="contact-container">
+      <div class="map">
+        <h2 class="fuenteOpenSans300">Ubicación de la empresa | Direccion: 1234 Elm Street,
+          Anytown, CA 12345,
+          Estados Unidos</h2>
+        <div class="map-container">
+          <!-- Google Maps -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1985136.125869261!2d98.95505411990878!3d13.6444384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d5e5b98782e8d%3A0x88fcf86f227a6850!2sIKEA%20Bangna!5e0!3m2!1ses-419!2sar!4v1696029164480!5m2!1ses-419!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2 class="fuenteOpenSans300">Formulario de Contacto</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Nombre" required>
+          <input type="email" placeholder="Correo electrónico" required>
+          <textarea placeholder="Mensaje" rows="5" required></textarea>
+          <button type="submit">Enviar consulta</button>
+        </form>
+      </div>
+    </div>
+
+    <!--Fin del formulario y mapa-->
+
+    <!--fin degrilla de bloques-->
   </main>
+  <footer class="text-dark bg-light">
+    <div class="container ">
+      <div class="row ">
+        <div class="col-md-4 col-lg-4 ">
+          <a href=""><img src="../assets/logo.png" alt="Logo" class=" img-fluid h-75 logos"></a>
+        </div>
+        <div class="col-md-4 col-lg-4 py-5">
+          <h5>Servicio y Contacto</h5>
+          <ul class="list-unstyled">
+            <li>Email: @RollingCode</li>
+            <li> Direccion: General Paz 561</li>
+            <li>Numero de Servicios: 381345599</li>
+
+          </ul>
+        </div>
+        <div class="col-md-4 col-lg-4 py-5">
+          <h5>Redes Sociales</h5>
+          <ul class="list-unstyled">
+            <li><a href=""><i class="face bi-facebook  m-2"></i>Facebook</a></li>
+            <li><a href=""><i class="insta bi-instagram m-2 "></i>instagran</a></li>
+            <li><a href=""><i class="wp bi-whatsapp  m-2"></i>whatsapp</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <a href="">
+                <p>&copy;Derechos reservados a RollingCode</p>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal login -->
   <div class="modal fade" id="modalLogin" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -135,6 +477,7 @@
               <label for="exampleInputEmail1" class="form-label fw-bold">Correo Electronico</label>
               <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+              <div id="emailHelp" class="form-text">.</div>
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
@@ -152,8 +495,11 @@
       </div>
     </div>
   </div>
-  <script src="../js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/dc095ddc9e.js" crossorigin="anonymous"></script>
+
 </body>
 
-</div>
 </html>

@@ -145,10 +145,14 @@ h5{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+.wCardFold{
+    width: 20rem;
+    height: 18rem;
+}
 
 .wCard{
     width: 20rem;
+    height: 12rem;
 }
 
 
@@ -216,6 +220,248 @@ b{
 .textColorOrange{
     color: var(--colorBtn);
 }
+
+/* Estilos pagina contacto ignacio sanches */
+.botonContactos{
+    display: block;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding:0.5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color:rgb(245, 245, 245);
+    color: rgb(128, 97, 97);
+    border-radius: 50px;
+    padding:10PX 10px 10px 30px;
+    text-decoration: none;
+    text-align: center;
+    border: 0 solid rgb(245, 245, 245);
+}
+input[type="search"] {
+  width: 220%;
+  max-width: 480px;
+  /* Resto de tus estilos... */
+}
+
+.contenedorBotonBusqueda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 17px;
+    bottom: 15px;
+    left:12px;
+}
+
+
+.contenedorGrilla {
+  display: grid;
+  gap: 10px; /* Añade espacio entre los elementos de la rejilla */
+}
+
+.colorGris{
+    color: rgb(72, 72, 72);
+}
+
+.colorNegro{
+    color: rgb(72, 72, 113);
+}
+
+.tamañoIcono{
+    font-size: 30px;
+}
+
+.fuentePrimeraGrilla{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.bordeDerechoBlanco{
+    border-right: 2px solid #ffffff;   
+}
+
+.bordeArribaBlanco{
+    border-top: 2px solid white;
+}
+
+.moverIzquierda{
+
+    display: flex;
+    justify-content: start;
+}
+
+.tamañoCorregido{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.botonesTerceraGrilla3{
+    display: block;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding:0.5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container12 {
+    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
+  }
+
+  .boton-flotante{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(249, 215, 22); /* Fondo amarillo */
+    border: none;
+    color: black; /* Color del texto */
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  @media (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    .boton-flotante {
+      bottom: 10px;
+      right: 10px;
+      padding: 10px 15px;
+      font-size: 20px;
+    }
+}
+
+    .contact-container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px; /* Ajusta según sea necesario */
+    }
+
+    .map {
+      flex: 1; /* Ocupa el 50% del ancho */
+      padding: 20px; 
+    }
+
+    .contact-form {
+      flex: 1; /* Ocupa el 50% del ancho */
+      padding: 20px; 
+    }
+
+    /* Estilos adicionales para el mapa y el formulario */
+ 
+    .map-container {
+      height: 400px; 
+      background-color: lightgray; /* Color de fondo para el mapa */
+      border-radius: 10px; /* Esquinas redondeadas */
+      overflow: hidden; /* Oculta el desbordamiento si lo hay */
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .contact-form button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    
+
+
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 767px) {
+    .fuenteOpenSans300 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos pequeños */
+    }
+  
+    .botonContactos {
+      width: 100%; /* Ancho completo para botones en dispositivos pequeños */
+    }
+  
+    input {
+      width: 100%; /* Ancho completo para inputs en dispositivos pequeños */
+    }
+  
+    .carousel-item .card {
+      width: 90%; 
+    }
+  
+    .contenedorGrilla {
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      
+    }
+  }
+  
+  /* Estilos para tablets (ancho entre 768px y 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .fuenteOpenSans300 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px; /* Tamaño de fuente para tablets */
+    }
+    .contenedorGrilla {
+      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  }
+  }
+  
+  /* Estilos para Samsung Galaxy S8 (360 x 740) */
+  @media (min-width: 360px) and (max-width: 740px) {
+    .contenedorGrilla {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      
+    }
+  }
+  
+  /* Estilos para Samsung Galaxy Fold (280 x 653) */
+  @media (min-width: 280px) and (max-width: 653px) {
+    .contenedorGrilla .col{
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      flex-basis: 100%; /* Establece que cada columna ocupe el 50% del espacio */
+      
+    }
+    
+    
+    .botonContactos {
+        width: 100%; /* Ancho completo para botones en dispositivos pequeños */
+      }
+  }
+  
+  /* Estilos para dispositivos normales (ancho igual o mayor a 992px) */
+  @media (min-width: 992px) {
+    .fuenteOpenSans300 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px; /* Tamaño de fuente para dispositivos normales */
+    }
+    .contenedorGrilla {
+      grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+  }
+  }
 
 @media screen and (min-width:350px){
     .marginTopSell{
