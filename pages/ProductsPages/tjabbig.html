@@ -361,6 +361,7 @@
                   <label for="exampleInputEmail1" class="form-label fw-bold">Correo Electronico</label>
                   <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                  <div id="emailHelp" class="form-text">.</div>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label fw-bold">Password</label>
@@ -370,10 +371,15 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Recordarme</label>
                 </div>
+                <div class="mb-3 w-100 text-center">
+                  <p>No recuerdo la contraseña! <a href="../Error404.html" class="text-black text-center">Recuperar contraseña</a></p>
+                </div>
               </form>
             </div>
             <div class="modal-footer justify-content-center">
-                <button class="btn btn-primary w-100 border-black colorBtn"><a href="../../index.html" class="text-decoration-none">Login</a></button>
+              <button class="btn btn-primary w-100 border-black colorBtn">Login</button>
+              <p>Loguearse con <a href="../Error404.html"  class="text-info">Facebook</a></p>
+              <p>Loguearse con <a href="../Error404.html"   class="text-danger">Google</a></p>
             </div>
           </div>
         </div>
