@@ -1,9 +1,9 @@
-:root{
+:root {
     --colorBtn: #f14902;
 }
 
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -11,66 +11,67 @@ body{
 }
 
 /* Componentes Globales */
-.colorBtn{
+.colorBtn {
     background-color: var(--colorBtn);
 }
 
-/* Codigo HomePage Alias JJ */´
-#caruselOfertaImg{
+/* Codigo HomePage Alias JJ */
+´ #caruselOfertaImg {
     width: 100%;
     object-fit: cover;
     height: 700px;
 }
 
-#desaparecer{
+#desaparecer {
     height: auto;
 }
 
 /* Codigo HomePage Alias JJ '''termina aqui''' */
 
-.translateArrowLg{
+.translateArrowLg {
     transform: translate(0px, 25px);
 }
 
-.translateArrow{
+.translateArrow {
     transform: translate(0px, 29px);
 }
 
 
-.widthNine{
+.widthNine {
     width: 90%;
 }
 
-.heightBtn{
+.heightBtn {
     height: 50px;
 }
 
-.btnReset{
+.btnReset {
     width: 0;
     height: 0;
     border: none;
     background-color: white;
 }
 
-.marginBtn{
+.marginBtn {
     margin-bottom: -40px;
 }
 
-.marginTopping{
+.marginTopping {
     margin-top: -29px;
 }
 
-#caruselOfertaImg{
+#caruselOfertaImg {
     width: 100%;
     object-fit: cover;
     height: 700px;
 }
-#boton{
+
+#boton {
     border-radius: 50%;
 }
 
 /* Codigo de Ignacio sanches pagina contacto */
-.botonContactos{
+.botonContactos {
     display: block;
     width: 250px;
     font-family: 'Open Sans', sans-serif;
@@ -78,151 +79,157 @@ body{
     background-color: black;
     color: white;
     border-radius: 50px;
-    padding:0.5%;
+    padding: 0.5%;
     text-decoration: none;
     text-align: center;
 }
 
-input{
+input {
     display: block;
     width: 480px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color:rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
     color: rgb(17, 17, 17);
     border-radius: 50px;
-    padding:10PX 10px 10px 30px;
+    padding: 10PX 10px 10px 30px;
     text-decoration: none;
     text-align: center;
     border: 0 solid rgb(245, 245, 245);
 }
 
-.contenedorBotonBusqueda{
+.contenedorBotonBusqueda {
     margin: auto;
     display: flex;
     align-items: center;
     position: relative;
 }
 
-.icon{
+.icon {
     font-size: 17px;
     position: absolute;
     bottom: 15px;
-    left:12px;
+    left: 12px;
 }
 
 
 /* Estilos footer max */
-footer{
-    background-color:#F6E7D8 ;
+footer {
+    background-color: #F6E7D8;
 }
+
 i {
     font-size: 25px;
-    
+
 }
-.insta{
-    color:rgb(225, 48, 108);
+
+.insta {
+    color: rgb(225, 48, 108);
 }
-.wp{
+
+.wp {
     color: green;
 }
-.face{
+
+.face {
     color: blue;
 }
-li a{
+
+li a {
     color: black;
     font-size: 25px;
     text-decoration: none;
     font-family: 'Sofia Sans Condensed', sans-serif;
 }
 
-a p{
+a p {
     font-size: 15px;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h5{
+
+h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.wCardFold{
+.wCardFold {
     width: 20rem;
     height: 18rem;
 }
 
-.wCard{
+.wCard {
     width: 20rem;
     height: 12rem;
 }
 
 
 /* Estilo navbar mauro armas */
-.logo{
+.logo {
     width: 100px;
     height: 100px;
 }
 
 
-.listaFooter{
+.listaFooter {
     list-style: none;
     padding: 0;
 }
 
-.carouselProducts{
+.carouselProducts {
     height: 450px;
     object-fit: cover;
 
 }
-a{
+
+a {
     color: white;
 }
 
-.marginTopSell{
-}
+.marginTopSell {}
 
-.marginBottomSell{
+.marginBottomSell {
     margin-top: 15px;
     margin-bottom: 50px;
 }
 
-.colorRegister{
+.colorRegister {
     color: #2600ff;
 }
 
-.colorCart{
+.colorCart {
     color: #1f9712b4;
 }
 
-.colorHeart{
+.colorHeart {
     color: #d40a0a;
 }
 
-b{
+b {
     color: black
 }
 
-.colorPregunta{
+.colorPregunta {
     background-color: var(--colorBtn);
     color: white;
     border: none;
 }
 
-.colorPregunta:hover{
+.colorPregunta:hover {
     background-color: #c63e04;
     color: white;
 }
 
-.colorBtn:hover{
+.colorBtn:hover {
     background-color: black;
     color: white;
 }
 
-.textColorOrange{
+.textColorOrange {
     color: var(--colorBtn);
 }
 
 /* Estilos pagina contacto ignacio sanches */
-.botonContactos{
+.botonContactos {
     display: block;
     width: 250px;
     font-family: 'Open Sans', sans-serif;
@@ -230,86 +237,89 @@ b{
     background-color: black;
     color: white;
     border-radius: 50px;
-    padding:0.5%;
+    padding: 0.5%;
     text-decoration: none;
     text-align: center;
 }
 
-input{
+input {
     display: block;
     width: 500px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color:rgb(245, 245, 245);
+    background-color: rgb(245, 245, 245);
     color: rgb(128, 97, 97);
     border-radius: 50px;
-    padding:10PX 10px 10px 30px;
+    padding: 10PX 10px 10px 30px;
     text-decoration: none;
     text-align: center;
     border: 0 solid rgb(245, 245, 245);
 }
+
 input[type="search"] {
-  width: 220%;
-  max-width: 480px;
-  /* Resto de tus estilos... */
+    width: 220%;
+    max-width: 480px;
+    /* Resto de tus estilos... */
 }
 
-.contenedorBotonBusqueda{
+.contenedorBotonBusqueda {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.icon{
+.icon {
     font-size: 17px;
     bottom: 15px;
-    left:12px;
+    left: 12px;
 }
 
 
 .contenedorGrilla {
-  display: grid;
-  gap: 10px; /* Añade espacio entre los elementos de la rejilla */
+    display: grid;
+    gap: 10px;
+    /* Añade espacio entre los elementos de la rejilla */
 }
 
-.colorGris{
+.colorGris {
     color: rgb(72, 72, 72);
 }
 
-.colorNegro{
+.colorNegro {
     color: rgb(72, 72, 113);
 }
 
-.tamañoIcono{
+.tamañoIcono {
     font-size: 30px;
 }
 
-.fuentePrimeraGrilla{
+.fuentePrimeraGrilla {
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5;
 }
 
-.bordeDerechoBlanco{
-    border-right: 2px solid #ffffff;   
+.bordeDerechoBlanco {
+    border-right: 2px solid #ffffff;
 }
 
-.bordeArribaBlanco{
+.bordeArribaBlanco {
     border-top: 2px solid white;
 }
 
-.moverIzquierda{
+.moverIzquierda {
 
     display: flex;
     justify-content: start;
 }
 
-.tamañoCorregido{
+.tamañoCorregido {
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.5;
 }
-.botonesTerceraGrilla3{
+
+.botonesTerceraGrilla3 {
     display: block;
     width: 250px;
     font-family: 'Open Sans', sans-serif;
@@ -317,29 +327,210 @@ input[type="search"] {
     background-color: black;
     color: white;
     border-radius: 50px;
-    padding:0.5%;
+    padding: 0.5%;
     text-decoration: none;
     text-align: center;
 }
 
 .container12 {
-    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor */
-  }
+    text-align: left;
+    /* Alinea el texto a la izquierda dentro del contenedor */
+}
 
-  .boton-flotante{
+.boton-flotante {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: rgb(249, 215, 22); /* Fondo amarillo */
+    background-color: rgb(249, 215, 22);
+    /* Fondo amarillo */
     border: none;
-    color: black; /* Color del texto */
+    color: black;
+    /* Color del texto */
     padding: 15px 20px;
     border-radius: 50%;
     font-size: 24px;
     cursor: pointer;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
-  }
-  @media (max-width: 767px) {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+}
+
+/* Codigo mauro armas pagina contacto */
+´ .btnBusq {
+    color: rgba(255, 67, 1, 255);
+    border-color: rgba(255, 67, 1, 255);
+}
+
+.btnBusq:hover {
+    background-color: rgba(255, 67, 1, 255);
+    border-color: rgba(255, 67, 1, 255);
+}
+
+#banner {
+    background-image: url(../assets/fondo.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 60%;
+    box-shadow: 0px 0px 50px 0 black;
+    margin-bottom: 70px;
+}
+
+#cont-banner {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont-banner h2,
+#cont-banner p {
+    color: #ffffff;
+    margin: 20px 12%;
+    text-align: center;
+
+}
+
+#cont-banner h2 {
+    font-size: 65px;
+}
+
+.intTitle {
+    font-size: 50px;
+}
+
+.integrantes {
+    display: flex;
+}
+
+.integrante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px #f14902 solid;
+    border-radius: 25px;
+    box-shadow: 17px 17px 30px -1px rgba(0, 0, 0, 0.62);
+    -webkit-box-shadow: 17px 17px 30px -1px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 17px 17px 30px -1px rgba(0, 0, 0, 0.62);
+    width: 100%;
+    margin: 0 10px;
+    box-sizing: border-box;
+    height: 350px;
+}
+
+.integrante h4 {
+    color: #f14902;
+    text-align: center;
+    margin: 20px 0;
+    height: 100%;
+}
+
+.integrante img {
+
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 20px 0;
+}
+
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    /* Ajusta según sea necesario */
+}
+
+.map {
+    flex: 1;
+    /* Ocupa el 50% del ancho */
+    padding: 20px;
+}
+
+.contact-form {
+    flex: 1;
+    /* Ocupa el 50% del ancho */
+    padding: 20px;
+}
+
+/* Estilos adicionales para el mapa y el formulario */
+
+.map-container {
+    height: 400px;
+    background-color: lightgray;
+    /* Color de fondo para el mapa */
+    border-radius: 10px;
+    /* Esquinas redondeadas */
+    overflow: hidden;
+    /* Oculta el desbordamiento si lo hay */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* Estilos para dispositivos pequeños (móviles) */
+@media (max-width: 767px) {
+    .fuenteOpenSans300 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        /* Tamaño de fuente más pequeño para dispositivos pequeños */
+    }
+
+    .botonContactos {
+        width: 100%;
+        /* Ancho completo para botones en dispositivos pequeños */
+    }
+
+    input {
+        width: 100%;
+        /* Ancho completo para inputs en dispositivos pequeños */
+    }
+
+    .carousel-item .card {
+        width: 90%;
+    }
+
+    .contenedorGrilla {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+    }
+}
+
+/* Estilos para tablets (ancho entre 768px y 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .fuenteOpenSans300 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        /* Tamaño de fuente para tablets */
+    }
+
+    .contenedorGrilla {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+}
+
+@media (max-width: 767px) {
     /* Estilos para dispositivos móviles */
     .boton-flotante {
       bottom: 10px;
@@ -349,156 +540,97 @@ input[type="search"] {
     }
 }
 
-    .contact-container {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 20px; /* Ajusta según sea necesario */
+/* Estilos para Samsung Galaxy S8 (360 x 740) */
+@media (min-width: 360px) and (max-width: 740px) {
+    .contenedorGrilla {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+    }
+}
+
+/* Estilos para Samsung Galaxy Fold (280 x 653) */
+@media (min-width: 280px) and (max-width: 653px) {
+    .contenedorGrilla .col {
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        flex-basis: 100%;
+        /* Establece que cada columna ocupe el 50% del espacio */
+
     }
 
-    .map {
-      flex: 1; /* Ocupa el 50% del ancho */
-      padding: 20px; 
-    }
 
-    .contact-form {
-      flex: 1; /* Ocupa el 50% del ancho */
-      padding: 20px; 
-    }
-
-    /* Estilos adicionales para el mapa y el formulario */
- 
-    .map-container {
-      height: 400px; 
-      background-color: lightgray; /* Color de fondo para el mapa */
-      border-radius: 10px; /* Esquinas redondeadas */
-      overflow: hidden; /* Oculta el desbordamiento si lo hay */
-    }
-
-    .contact-form input, .contact-form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-
-    .contact-form button {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      background-color: black;
-      color: white;
-      border: none;
-      border-radius: 5px;
-    }
-
-    
-
-
-
-/* Estilos para dispositivos pequeños (móviles) */
-@media (max-width: 767px) {
-    .fuenteOpenSans300 {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos pequeños */
-    }
-  
     .botonContactos {
-      width: 100%; /* Ancho completo para botones en dispositivos pequeños */
+        width: 100%;
+        /* Ancho completo para botones en dispositivos pequeños */
     }
-  
-    input {
-      width: 100%; /* Ancho completo para inputs en dispositivos pequeños */
-    }
-  
-    .carousel-item .card {
-      width: 90%; 
-    }
-  
-    .contenedorGrilla {
-      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-      
-    }
-  }
-  
-  /* Estilos para tablets (ancho entre 768px y 991px) */
-  @media (min-width: 768px) and (max-width: 991px) {
-    .fuenteOpenSans300 {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 16px; /* Tamaño de fuente para tablets */
-    }
-    .contenedorGrilla {
-      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-  }
-  }
-  
-  /* Estilos para Samsung Galaxy S8 (360 x 740) */
-  @media (min-width: 360px) and (max-width: 740px) {
-    .contenedorGrilla {
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      
-    }
-  }
-  
-  /* Estilos para Samsung Galaxy Fold (280 x 653) */
-  @media (min-width: 280px) and (max-width: 653px) {
-    .contenedorGrilla .col{
-      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-      flex-basis: 100%; /* Establece que cada columna ocupe el 50% del espacio */
-      
-    }
-    
-    
-    .botonContactos {
-        width: 100%; /* Ancho completo para botones en dispositivos pequeños */
-      }
-  }
-  
-  /* Estilos para dispositivos normales (ancho igual o mayor a 992px) */
-  @media (min-width: 992px) {
-    .fuenteOpenSans300 {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 18px; /* Tamaño de fuente para dispositivos normales */
-    }
-    .contenedorGrilla {
-      grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
-  }
-  }
+}
 
-@media screen and (min-width:350px){
-    .marginTopSell{
+/* Estilos para dispositivos normales (ancho igual o mayor a 992px) */
+@media (min-width: 992px) {
+    .fuenteOpenSans300 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        /* Tamaño de fuente para dispositivos normales */
+    }
+
+    .contenedorGrilla {
+        grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+    }
+}
+
+@media screen and (min-width:350px) {
+    .marginTopSell {
         margin-top: 32px;
     }
 
-    .marginBottomSell{
+    .marginBottomSell {
         margin-bottom: 24px;
     }
 }
 
 
 
-@media screen and (min-width:576px){
-    .carousel-item{
+@media screen and (min-width:576px) {
+    .carousel-item {
         /* display: block;
         margin-right: 0;
         flex: 0 0 calc(100%/3); */
     }
-    .carousel-inner{
+
+    .carousel-inner {
         /* display: flex; */
-    }    
+    }
 }
 
 
 @media screen and (max-width: 998px) {
-    main{
+    main {
         flex-grow: 1;
     }
 
-    #caruselOfertaImg{
+    #caruselOfertaImg {
         width: 100%;
         object-fit: cover;
         height: 300px;
     }
 
-    #desaparecer{
+    #desaparecer {
         display: none;
+    }
+}
+
+@media (max-width: 1041px) {
+    #cont-banner h2{
+        font-size: 40px;
+    }
+    .intTitle{
+        font-size: 35px;
+    }
+    .integrantes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .descripcion{
+        text-align: center;
     }
 }
